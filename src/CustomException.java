@@ -1,6 +1,6 @@
-class InvalidAgeException  extends Exception
+class InvalidAgeException extends Exception
 {
-    public InvalidAgeException (String str)
+    InvalidAgeException (String str)
     {
         super(str);
     }
