@@ -11,6 +11,11 @@ class MySingleton
 
         return instance;
     }
+
+    @Override
+    public String toString() {
+        return String.valueOf(x);
+    }
 }
 
 // Driver Class
@@ -21,8 +26,8 @@ class SingletonClass
         MySingleton a = MySingleton.getInstance();
         MySingleton b = MySingleton.getInstance();
         a.x = a.x + 10;
-        System.out.println("Value of a.x = " + a.x);
+        System.out.println("Value of a.x = " + a);
         b.x = b.x + 20;
-        System.out.println("Value of a.x = " + a.x);
+        System.out.println("Value of a.x = " + a);
     }
 }
