@@ -84,13 +84,26 @@ class DoublyLinkedList {
         isCircular = true;
     }
 
+    private void sleep(int seconds){
+        try
+        {
+            Thread.sleep(seconds * 1000);
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
+    }
+
     public void print() {
         if (Head == null) {
             System.out.println("No element in the list");
+            sleep(3);
             return;
         }
         if (isCircular) {
             printCircular();
+            sleep(5);
             return;
         }
         getFirst();
@@ -101,6 +114,7 @@ class DoublyLinkedList {
             temp = temp.getRight();
         } while (temp != null);
         System.out.println();
+        sleep(5);
     }
 
     public void printCircular() {
@@ -196,58 +210,58 @@ public class DoublyLinkListExample {
 
         Scanner sc = new Scanner(System.in);
         DoublyLinkedList dl = new DoublyLinkedList();
-        dl.insertRight(1);
-        dl.insertRight(2);
-        dl.insertRight(3);
-        dl.insertRight(2);
-        dl.deleteNode(2);
-        dl.deleteNode(2);
-        dl.print();
-        dl.deleteNode(2);
-        dl.print();
-//        int choice = 1;
-//
-//        while (choice != 9) {
-//            System.out.print("\033[H\033[2J");
-//            System.out.flush();
-//            System.out.println("1.Insert Right");
-//            System.out.println("2.Insert Left");
-//            System.out.println("3.Delete Node");
-//            System.out.println("4.Make LL circular");
-//            System.out.println("5.Make LL doubly");
-//            System.out.println("6.Print");
-//            System.out.println("9.Exit");
-//            System.out.print("Enter your Action: ");
-//            choice = sc.nextInt();
-//            switch (choice) {
-//                case 1:
-//                    System.out.print("Enter Value to add: ");
-//                    dl.insertRight(sc.nextInt());
-//                    break;
-//                case 2:
-//                    System.out.print("Enter Value to add: ");
-//                    dl.insertLeft(sc.nextInt());
-//                    break;
-//                case 3:
-//                    System.out.print("Enter Value to delete: ");
-//                    dl.deleteNode(sc.nextInt());
-//                    break;
-//                case 4:
-//                    dl.circularLinkedList();
-//                    break;
-//                case 5:
-//                    System.out.print("Enter Value to Break: ");
-//                    dl.breakCircularList(sc.nextInt());
-//                    break;
-//                case 6:
-//                    dl.print();
-//                    break;
-//                case 9:
-//                    break;
-//                default:
-//                    System.err.println("Wrong Option");
-//            }
-//            sc.nextLine();
-//        }
+//        dl.insertRight(1);
+//        dl.insertRight(2);
+//        dl.insertRight(3);
+//        dl.insertRight(2);
+//        dl.deleteNode(2);
+//        dl.deleteNode(2);
+//        dl.print();
+//        dl.deleteNode(2);
+//        dl.print();
+        int choice = 1;
+
+        while (choice != 9) {
+            System.out.print("\033[H\033[2J");
+            System.out.flush();
+            System.out.println("1.Insert Right");
+            System.out.println("2.Insert Left");
+            System.out.println("3.Delete Node");
+            System.out.println("4.Make LL circular");
+            System.out.println("5.Make LL doubly");
+            System.out.println("6.Print");
+            System.out.println("9.Exit");
+            System.out.print("Enter your Action: ");
+            choice = sc.nextInt();
+            switch (choice) {
+                case 1:
+                    System.out.print("Enter Value to add: ");
+                    dl.insertRight(sc.nextInt());
+                    break;
+                case 2:
+                    System.out.print("Enter Value to add: ");
+                    dl.insertLeft(sc.nextInt());
+                    break;
+                case 3:
+                    System.out.print("Enter Value to delete: ");
+                    dl.deleteNode(sc.nextInt());
+                    break;
+                case 4:
+                    dl.circularLinkedList();
+                    break;
+                case 5:
+                    System.out.print("Enter Value to Break: ");
+                    dl.breakCircularList(sc.nextInt());
+                    break;
+                case 6:
+                    dl.print();
+                    break;
+                case 9:
+                    break;
+                default:
+                    System.err.println("Wrong Option");
+            }
+            sc.nextLine();
+        }
     }
 }

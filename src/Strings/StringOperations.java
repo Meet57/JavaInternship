@@ -28,7 +28,7 @@ public class StringOperations {
 //        It means two threads can't call the methods of StringBuffer simultaneously.
         long startTime = System.currentTimeMillis();
         StringBuffer sb = new StringBuffer("Java");
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 999999; i++) {
             sb.append("Meet ");
         }
         System.out.println(System.currentTimeMillis() - startTime + "ms");
@@ -37,10 +37,11 @@ public class StringOperations {
 //        this is not thread safe as it is not synchronized
         startTime = System.currentTimeMillis();
         StringBuilder sb2 = new StringBuilder("Java");
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 999999; i++) {
             sb2.append("Meet ");
         }
         System.out.println(System.currentTimeMillis() - startTime + "ms");
+        System.out.println(sb2.length());
 
         StringBuilder s3 = new StringBuilder("Meet").append(1).append("Patel").replace(4,5," ");
         Object s4 = s3.toString();
