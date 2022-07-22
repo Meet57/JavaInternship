@@ -55,7 +55,7 @@ public class WrapperClass {
         * Otherwise object will now be assigned
         * Closeable is called when the block is over
         * */
-        try(MeetWrapper n = new MeetWrapper("1")){
+        try(MeetWrapper n = new MeetWrapper("11w")){
             System.out.println(n);
 //            n = null;
         }

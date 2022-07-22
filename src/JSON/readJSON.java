@@ -4,6 +4,7 @@ import jdk.nashorn.internal.ir.debug.JSONWriter;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
+import javax.xml.bind.SchemaOutputResolver;
 import java.io.*;
 import java.util.ArrayList;
 
@@ -19,7 +20,7 @@ public class readJSON {
         File file = new File("/home/meet/IdeaProjects/Practice/out/production/Practice/JSON/x");
         BufferedReader bf = new BufferedReader(new FileReader(file));
         String st,data[],date="";
-        JSONObject main = new JSONObject(),temp= new JSONObject();
+        JSONObject main = new JSONObject(),temp;
         ArrayList<JSONObject> day = new JSONArray();
 
         while ((st = bf.readLine()) != null){
@@ -33,16 +34,18 @@ public class readJSON {
                 date = data[0];
                 day.clear();
             }
-            temp.clear();
+//            temp.clear();
+            temp = new JSONObject();
+
             temp.put("time",data[1]);
             temp.put("cpu",data[2]);
             temp.put("mem",data[3]);
             temp.put("total mem",data[4]);
             day.add(temp);
-            System.out.println(day.get(0));
-        }
+         }
         main.put(date.replace("/","-"),day);
 
+        System.out.println(day);
         FileWriter writer = new FileWriter("/home/meet/IdeaProjects/Practice/src/JSON/final.json");
         BufferedWriter bw = new BufferedWriter(writer);
         bw.write(main.toJSONString());

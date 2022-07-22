@@ -35,6 +35,11 @@ public class Test {
     }
 
     public static void main(String[] args) {
+        String sa = "Java";
+        String sb = new String("Java").intern();
+        System.out.println(String.valueOf(sa==sb));
+        System.out.println(sa.hashCode()+" "+sb.hashCode());
+
         Test a = new Test();
         System.out.println(a.add(1,2));
 
