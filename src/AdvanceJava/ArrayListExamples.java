@@ -11,7 +11,6 @@ public class ArrayListExamples {
         list.add(2, "B");
         list.add(1, "C");
         System.out.println(list);
-
         ArrayList<String> list2 = list;
         System.out.println(list2 == list);
         System.out.println(list2.equals(list));

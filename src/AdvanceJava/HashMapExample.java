@@ -29,6 +29,7 @@ public class HashMapExample {
             System.out.println(m.getKey() + ":" + m.getValue());
         }
 
+//        ---------
         Set a = counter.keySet();
 
         counter.get('a');
@@ -37,6 +38,7 @@ public class HashMapExample {
             System.out.println(b + ":" + counter.get(b));
         }
 
+//        ----------
         counter.entrySet().forEach(entry -> {
             System.out.println(entry.getKey() + " = " + entry.getValue());
         });

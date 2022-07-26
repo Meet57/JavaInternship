@@ -1,11 +1,11 @@
-package Strings;
+package AdvanceJava;
 
-public class Test {
+public class ArrayCloneLogic {
     public static void main(String[] args) {
-        String s1 = new String("Meet");
-        String s2 = new String("Meet");
-        System.out.println(s1==s2);
-        System.out.println(s1.equals(s2));
+//        String s1 = new String("Meet");
+//        String s2 = new String("Meet");
+//        System.out.println(s1==s2);
+//        System.out.println(s1.equals(s2));
 
         int arr[][] = {{1,2},{2,3},{3,4},{4,5}};
         int arr2[][] = arr.clone();
