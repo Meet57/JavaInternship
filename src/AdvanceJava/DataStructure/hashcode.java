@@ -17,5 +17,7 @@ public class hashcode {
         System.out.println(
                 hashcodeGenerator(a) == hashcodeGenerator(b)
         );
+        System.out.println(a==b);
+        System.out.println(a.equals(b));
     }
 }

@@ -1,6 +1,7 @@
 package AdvanceJava.Examples;
 
 import java.util.Iterator;
+import java.util.Queue;
 import java.util.Stack;
 
 public class StackExample {
@@ -9,6 +10,7 @@ public class StackExample {
         stk.push(119);
         stk.push(203);
         stk.push(988);
+        stk.peek();
 
         Iterator i =  stk.iterator();
         while(i.hasNext()){
