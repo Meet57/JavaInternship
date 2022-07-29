@@ -1,7 +1,6 @@
 package AdvanceJava.DataStructure;
 
 import java.util.Scanner;
-import java.util.Stack;
 
 public class Test {
     public int add(int a,int b){
@@ -37,7 +36,7 @@ public class Test {
 
     public static void main(String[] args) {
         String sa = "Java";
-        String sb = new String("Java").intern();
+        String sb = new String("Java");
         System.out.println(String.valueOf(sa==sb));
         System.out.println(sa.hashCode()+" "+sb.hashCode());
 
