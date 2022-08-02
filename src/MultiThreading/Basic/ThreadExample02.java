@@ -1,4 +1,4 @@
-package MultiThreading;
+package MultiThreading.Basic;
 /*
 * Stoppable thread
 * If two threads are running: main and thread

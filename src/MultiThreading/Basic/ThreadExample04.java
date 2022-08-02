@@ -1,4 +1,4 @@
-package MultiThreading;
+package MultiThreading.Basic;
 
 /*
  * Shared and Separate objects of runnable

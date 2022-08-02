@@ -1,4 +1,4 @@
-package MultiThreading;
+package MultiThreading.Basic;
 /*
 * Ways to create Threads
 * */
@@ -21,7 +21,9 @@ public class ThreadExample01 {
 
     //    Method 3
     public static class MyRunnable implements Runnable {
-
+        MyRunnable(){
+            System.out.println("Runnable Constructor");
+        }
         @Override
         public void run() {
             System.out.println("runnable Thread");

@@ -1,8 +1,7 @@
-package MultiThreading;
+package MultiThreading.Basic;
 
 public class ThreadExample03 {
     public static class MyRunnable implements Runnable {
-
         @Override
         public void run() {
             for (int i = 0; i < 10; i++) {
@@ -14,8 +13,7 @@ public class ThreadExample03 {
                 System.out.println(i);
             }
         }
-
-        @Override
+         @Override
         protected void finalize() throws Throwable {
             super.finalize();
             System.out.println("Out");

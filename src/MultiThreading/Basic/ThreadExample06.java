@@ -1,4 +1,4 @@
-package MultiThreading;
+package MultiThreading.Basic;
 
 /*
  * Deadlock
@@ -9,7 +9,7 @@ package MultiThreading;
  * */
 
 public class ThreadExample06 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         String s1 = "Meet";
         String s2 = "Patel";
 

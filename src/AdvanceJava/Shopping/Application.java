@@ -183,6 +183,8 @@ public class Application {
         p.addProduct("Cloths", "Belt", 60);
 
         app.createAccount("meet", "meet");
+        app.login("meet","meet").addToCart("Milk",80,5);
+        app.login("meet","meet").addToCart("Jeans",800,2);
 
 
         Scanner sc = new Scanner(System.in);

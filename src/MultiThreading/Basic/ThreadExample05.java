@@ -1,4 +1,4 @@
-package MultiThreading;
+package MultiThreading.Basic;
 
 /*
 * if two methods are sync, and same object is trying to access
