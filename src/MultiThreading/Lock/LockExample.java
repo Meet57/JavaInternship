@@ -18,7 +18,7 @@ class Counter {
 
 class MyRunnable implements Runnable {
     Counter c = null;
-    Lock lock = new ReentrantLock(true);
+    ReentrantLock lock = new ReentrantLock(true);
 
     MyRunnable(Counter c) {
         this.c = c;
@@ -31,6 +31,11 @@ class MyRunnable implements Runnable {
             c.inc();
         }
         System.out.println(c.getCount());
+        lock.lock();
+        System.out.println(lock.getHoldCount());
+        System.out.println(lock.getQueueLength());
+        System.out.println(lock.isHeldByCurrentThread());
+        lock.unlock();
         lock.unlock();
     }
 }
@@ -41,7 +46,7 @@ public class LockExample {
         MyRunnable r = new MyRunnable(c);
         MyRunnable r1 = new MyRunnable(c);
         Thread t1 = new Thread(r);
-        Thread t2 = new Thread(r);
+        Thread t2 = new Thread(r1);
 
         t1.start();
         t2.start();
