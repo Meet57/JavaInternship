@@ -11,7 +11,7 @@ public class test {
 
         List<Callable<String>> callables = new ArrayList<>();
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 1000; i++) {
             callables.add(newCallable("Task "+i,2));
         }
 

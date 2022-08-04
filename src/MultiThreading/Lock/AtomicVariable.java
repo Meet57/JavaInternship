@@ -13,7 +13,7 @@ class AtomicCounter implements Runnable {
 
     @Override
     public void run() {
-        for (int i = 0; i < 100000; i++) {
+        for (int i = 0; i < 1000000; i++) {
             counter++;
             atomicCounter.incrementAndGet();
         }
@@ -23,8 +23,8 @@ class AtomicCounter implements Runnable {
         return counter;
     }
 
-    public AtomicInteger getAtomicCounter() {
-        return atomicCounter;
+    public int getAtomicCounter() {
+        return atomicCounter.get();
     }
 }
 

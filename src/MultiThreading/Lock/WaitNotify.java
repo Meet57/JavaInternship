@@ -1,40 +1,75 @@
 package MultiThreading.Lock;
 
-class Gun{
+import java.util.Scanner;
+import java.util.concurrent.atomic.AtomicBoolean;
+
+/*
+ * In this program I have used wait and notify for reload and fire: two threads
+ * I have also used Concept of synchronized and atomicVariable
+ * */
+
+class Gun {
     private int bullet = 40;
-    synchronized public void fire(int b){
-        for (int i = 1; i <= b; i++) {
-            if(bullet==0){
-                System.out.println("Fired " + (i-1) + " Now reloading");
-                try{
+    private AtomicBoolean stop = new AtomicBoolean(false);
+
+    synchronized public void fire(int b) {
+        int i = 0;
+        for (i = 1; i <= b; i++) {
+            if (bullet == 0) {
+                System.out.println("Fired " + (i - 1) + " Now reloading");
+                try {
+                    notify();
                     wait();
-                }catch (Exception e){
+                } catch (Exception e) {
                     System.err.println(e);
                 }
-                System.out.println("Reloaded");
+                if(bullet > 0){
+                    System.out.println("Reloaded");
+                }
             }
+            if (stop.get() == true) break;
             bullet--;
             firing();
         }
-        System.out.println("Fired "+b+" bullets");
+        stop.set(true);
+        notify();
+        System.out.println("Fired " + (i - 1) + " bullets");
     }
 
-    private void firing(){
+    private void firing() {
         try {
-            Thread.sleep(166);
+            Thread.sleep(10);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
         System.out.print("-");
     }
-    synchronized public void reload(){
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+
+    synchronized public void reload() {
+        Scanner sc = new Scanner(System.in);
         this.bullet = 40;
-        notify();
+        if(stop.get() == false){
+            System.out.print("Reload how many Bullets : ");
+            int value =sc.nextInt();
+            if (value != 0) {
+                synchronized (this){
+                    bullet = value;
+                }
+                notify();
+                try {
+                    wait();
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+                reload();
+            } else {
+                stop.set(true);
+                notify();
+            }
+        }else{
+            stop.set(true);
+            notify();
+        }
     }
 }
 
@@ -45,7 +80,7 @@ public class WaitNotify {
         Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {
-                g.fire(60);
+                g.fire(1000);
             }
         });
 

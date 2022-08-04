@@ -1,0 +1,10 @@
+
+Notify and wait
+    if multiple threads are on wait and a thread call notify
+    then CPU will decide which thread to activate again
+
+Why Multithreading
+    Better utilization of multiple CPUs or CPU cores.
+    Fairness and responsiveness
+
+
