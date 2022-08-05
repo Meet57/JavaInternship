@@ -80,7 +80,7 @@ public class WaitNotify {
         Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {
-                g.fire(1000);
+                g.fire(100);
             }
         });
 

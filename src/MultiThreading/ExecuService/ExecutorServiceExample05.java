@@ -17,6 +17,7 @@ public class ExecutorServiceExample05 {
         callables.add(newCallable("Task 4",2));
         callables.add(newCallable("Task 5",1));
 
+//        executorService.submit(callables);
         List<Future<String>> results = executorService.invokeAll(callables);
         List<Runnable> runnable = executorService.shutdownNow();
         for (Runnable runner : runnable) {
