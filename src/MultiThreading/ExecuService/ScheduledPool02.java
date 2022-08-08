@@ -19,9 +19,8 @@ public class ScheduledPool02 {
         * it will print hi after 1 sec and then will repeat it every 2 sec
         * */
 
-        Thread.sleep(5000);
-        scs.shutdown();
-
         scs.awaitTermination(5, TimeUnit.SECONDS);
+
+        scs.shutdown();
     }
 }

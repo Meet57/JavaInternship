@@ -1,0 +1,9 @@
+awaitTermination()
+    used to await the termination after the shutdown request or the timeout specified as the parameter.
+awaitQuiescence()
+    Returns: True if quiescent; false if the timeout elapsed.
+commonPool()
+    to return an instance of common Pool. Its running state is unaffected by the shutdown request.
+execute()
+    Doesn't return anything
+    The execute method is overloaded as execute (Runnable task) which is used to execute some command at some time in the future.

@@ -27,7 +27,7 @@ public class ExecutorServiceExample {
     }
 
     public static void main(String[] args) {
-        ExecutorService es = Executors.newFixedThreadPool(2);
+        ExecutorService es = Executors.newFixedThreadPool(10);
 
         es.execute(myRunnable("Task 1"));
         es.execute(myRunnable("Task 2"));
