@@ -1,0 +1,6 @@
+/all                            //list all people
+/createGroup GROUPNAME          //create group
+/groups                         //list all groups
+/join GROUPNAME                 //joins group
+/leave                          //leaves group
+/msg PERSONNAME -[MESSAGE]      //Sends personal message
