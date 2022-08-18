@@ -21,7 +21,7 @@ public class Example01 {
         Testl1 t = new Testl1(n, 0, n.length);
         Integer r = Pool.invoke(t);
         Pool.shutdown();
-        Pool.awaitTermination(1, TimeUnit.SECONDS);
+        Pool.awaitTermination(3, TimeUnit.SECONDS);
         System.out.println("Pool.invoke :" + r);
     }
 }

@@ -24,7 +24,7 @@ public class PingClass {
 
                 Process process = null;
                 try {
-                    System.out.println(Thread.currentThread().getName() + " Pinging : " + ip);
+//                    System.out.println(Thread.currentThread().getName() + " Pinging : " + ip);
                     process = processBuilder.start();
                 } catch (IOException e) {
                     throw new RuntimeException(e);
@@ -40,7 +40,6 @@ public class PingClass {
                 } catch (IOException e) {
                     s = -1;
                 }
-
                 return ip + " " + s;
             }
         };

@@ -1,4 +1,4 @@
-package MultiThreading.Basic;
+package visualVM;
 
 /*
  * Deadlock
@@ -9,13 +9,20 @@ package MultiThreading.Basic;
  * */
 
 /*
-* To see all processes running in command line
-* jps -l -m
-* Then to see the stack
-* jstack ID
-* */
+ * To see all processes running in command line
+ * jps -l -m
+ * Then to see the Thread Dump
+ * jstack ID
+ *
+ * jmap -dump:live,format=b,file=/tmp/dump.hprof <pid>
 
-public class ThreadExample06 {
+ * RMI Thread : Remote Method Invocation
+ *
+ * https://fastthread.io/
+ * https://heaphero.io/
+ * */
+
+public class DeadLock {
     public static void main(String[] args) throws InterruptedException {
         String s1 = "Meet";
         String s2 = "Patel";

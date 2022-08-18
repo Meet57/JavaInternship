@@ -70,7 +70,7 @@ public class ProducerConsumerUsingBlockingQueue {
     public static void main(String[] args) {
         BlockingQueue<Integer> q = new ArrayBlockingQueue(3);
 
-        Thread Producer = new Thread(new Producer(q, 0.1F));
+        Thread Producer = new Thread(new Producer(q, 1));
         Thread Consumer1 = new Thread(new Consumer(q, 2));
         Thread Consumer2 = new Thread(new Consumer(q, 2));
 

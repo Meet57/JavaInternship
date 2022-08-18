@@ -25,11 +25,13 @@ public class Worker {
     }
 
     public HashMap<String, String> run() {
-        ExecutorService executorService = Executors.newFixedThreadPool(2);
+//        ExecutorService executorService = Executors.newFixedThreadPool(8);
+        ExecutorService executorService = Executors.newFixedThreadPool(ipAddresses.length/2);
         List<Callable<String>> callables = new ArrayList<>();
+        System.out.println("Total Ips are : " + ipAddresses.length);
 
-        for (int i = 0; i < ipAddresses.length; i++) {
-            callables.add(PingClass.discovery(ipAddresses[i]));
+        for (String ipAddress : ipAddresses) {
+            callables.add(PingClass.discovery(ipAddress));
         }
 
         try {
@@ -38,9 +40,7 @@ public class Worker {
                 String asd = (String) future.get();
                 result.put(asd.split(" ")[0], asd.split(" ")[1]);
             }
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        } catch (ExecutionException e) {
+        } catch (InterruptedException | ExecutionException e) {
             throw new RuntimeException(e);
         }
 

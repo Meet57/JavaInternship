@@ -7,3 +7,9 @@ commonPool()
 execute()
     Doesn't return anything
     The execute method is overloaded as execute (Runnable task) which is used to execute some command at some time in the future.
+
+Running: thread is still running.
+Sleeping: thread is sleeping (method yield() was called on the thread object)
+Wait: thread was blocked by a mutex or a barrier, and is waiting for another thread to release the lock
+Park: parked threads are suspended until they are given a permit. Unparking a thread is usually done by calling method unpark() on the thread object
+Monitor: threads are waiting on a condition to become true to resume execution
