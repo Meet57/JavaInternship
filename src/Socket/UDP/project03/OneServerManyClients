@@ -1,0 +1,8 @@
+Here in one PC is it not possible to make single server and multiple clients
+as many clients cant listen to one port
+
+SINGLE PC:
+    Same IP different ports
+
+MULTIPLE PC:
+    Same port different IP    

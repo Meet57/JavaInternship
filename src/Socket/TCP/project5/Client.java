@@ -1,4 +1,4 @@
-package Socket.project6;
+package Socket.TCP.project5;
 
 import java.io.*;
 import java.net.Socket;
@@ -8,7 +8,7 @@ public class Client {
     private Socket socket;
     private BufferedReader bufferedReader;
     private BufferedWriter bufferedWriter;
-    private final String username;
+    private String username;
 
     public Client(Socket socket, String username) {
         this.socket = socket;
@@ -33,7 +33,7 @@ public class Client {
                 bufferedWriter.write(messageToSend);
                 bufferedWriter.newLine();
                 bufferedWriter.flush();
-                if (messageToSend.equals("/exit")) break;
+                if (messageToSend.equals("EXIT")) break;
             }
         } catch (IOException e) {
             closeEverything(socket, bufferedReader, bufferedWriter);
@@ -47,22 +47,6 @@ public class Client {
         while (socket.isConnected()) {
             try {
                 messageFromGroupChat = bufferedReader.readLine();
-                if (messageFromGroupChat == null) {
-                    try {
-                        System.err.println("Error Reconnecting...");
-                        Thread.sleep(7000);
-                        this.socket = new Socket("10.20.40.226", 1234);
-                        if (socket.isConnected()) {
-                            bufferedWriter.write(username);
-                            bufferedWriter.newLine();
-                            bufferedWriter.flush();
-                        }
-                    } catch (InterruptedException e) {
-                        closeEverything(socket, bufferedReader, bufferedWriter);
-                        break;
-                    }
-                    continue;
-                }
                 System.out.println(messageFromGroupChat);
             } catch (IOException e) {
                 closeEverything(socket, bufferedReader, bufferedWriter);
@@ -88,14 +72,14 @@ public class Client {
         try {
             Socket socket = new Socket("10.20.40.226", 1234);
             Client client = new Client(socket, username);
-            Thread messageListener = new Thread(new Runnable() {
+            Thread messageListner = new Thread(new Runnable() {
                 @Override
                 public void run() {
                     client.listenForMessage();
                 }
             });
-            messageListener.setDaemon(true);
-            messageListener.start();
+            messageListner.setDaemon(true);
+            messageListner.start();
             client.sendMessage();
         } catch (IOException e) {
             throw new RuntimeException(e);

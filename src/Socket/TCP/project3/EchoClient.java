@@ -1,4 +1,4 @@
-package Socket.project3;
+package Socket.TCP.project3;
 
 import java.io.BufferedReader;
 import java.io.IOException;

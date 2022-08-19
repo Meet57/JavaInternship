@@ -1,4 +1,4 @@
-package Socket.project4;
+package Socket.TCP.project4;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

@@ -1,4 +1,4 @@
-package Socket.project1;
+package Socket.TCP.project1;
 
 import java.io.IOException;
 import java.net.Socket;

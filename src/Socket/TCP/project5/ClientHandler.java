@@ -1,4 +1,4 @@
-package Socket.project5;
+package Socket.TCP.project5;
 
 import java.io.*;
 import java.net.Socket;
