@@ -1,0 +1,27 @@
+NETTY
+
+Bootstrap
+    starting threads, opening sockets etc
+
+EventLoop
+    A Netty EventLoop is a loop that keeps looking for new events, e.g. incoming data
+    from network sockets (from SocketChannel) instances).
+
+SocketChannel
+    A Netty SocketChannel represents a TCP connection to another computer over a network
+
+ChannelInitializer
+    A Netty ChannelInitializer is a special ChannelHandler which is attached to the
+    ChannelPipeline of a SocketChannel when the SocketChannel is created. The ChannelInitializer
+    is then called so it can initialize the SocketChannel.
+
+ChannelHandler
+    A Netty ChannelHandler handles the data that is received from a Netty SocketChannel.
+    A ChannelHandler can also handle data that is being written out to a SocketChannel
+
+ChannelPipeline
+     The ChannelPipeline contains a list of ChannelHandler instances. When the EventLoop
+     reads data from a SocketChannel the data is passed to the first ChannelHandler in the
+     ChannelPipeline. The first ChannelHandler processes the data and can choose to forward
+     it to the next ChannelHandler in the ChannelPipeline, which then also processes the data
+     and can choose to forward it to the next ChannelHandler in the ChannelPipeline etc.
