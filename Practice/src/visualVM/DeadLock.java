@@ -22,6 +22,14 @@ package visualVM;
  * https://heaphero.io/
  * */
 
+/*
+Running: thread is still running.
+Sleeping: thread is sleeping (method yield() was called on the thread object)
+Wait: thread was blocked by a mutex or a barrier, and is waiting for another thread to release the lock
+Park: parked threads are suspended until they are given a permit. Unparking a thread is usually done by calling method unpark() on the thread object
+Monitor: threads are waiting on a condition to become true to resume executionRunning: thread is still running.
+* */
+
 public class DeadLock {
     public static void main(String[] args) throws InterruptedException {
         String s1 = "Meet";
