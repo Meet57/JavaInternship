@@ -20,14 +20,11 @@ public class Main {
     public Session openSession() throws Exception {
 
         if (null == session) {
-            session = jsch.getSession("user", "hostname",
+            session = jsch.getSession("meet", "10.20.40.226",
                     22);
 
-            System.out.println("**************************************"
-                    + session.isConnected());
 
-
-            session.setPassword("pwd");
+            session.setPassword(".,.");
             session.setConfig("StrictHostKeyChecking", "no");
             session.connect(10 * 1000);
 
@@ -54,7 +51,6 @@ public class Main {
             Channel channel = session.openChannel("exec");
             ((ChannelExec) channel).setCommand(command1);
             channel.setInputStream(null);
-            ((ChannelExec) channel).setErrStream(System.err);
 
             InputStream in = channel.getInputStream();
             channel.connect();
@@ -70,8 +66,6 @@ public class Main {
                     System.out.print(readText);
                 }
                 if (channel.isClosed()) {
-                    System.out.println("exit-status: "
-                            + channel.getExitStatus());
                     break;
                 }
                 try {
@@ -80,8 +74,6 @@ public class Main {
                 }
             }
             channel.disconnect();
-            // session.disconnect();
-            System.out.println("DONE");
 
         } catch (Throwable t) {
             System.out.println(t);
@@ -93,13 +85,8 @@ public class Main {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         try {
-            Main sshcon = new Main();
-            String command1 = " env | grep CCM;";
-            String session = sshcon.getSession(command1);
-            String command = "export SRL_FILE=/home/20140224/myfile.txt;";
-            sshcon.getSession(command);
-            sshcon.getSession("env | grep SRL;");
-            sshcon.getSession("pwd");
+            Main ssh = new Main();
+            ssh.getSession("pwd");
         } catch (Exception e) {
         }
 

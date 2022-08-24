@@ -5,7 +5,7 @@ import java.util.concurrent.ConcurrentHashMap;
 @ServerEndpoint("/endpoint")
 public class WebSocketServerClass {
 
-    ConcurrentHashMap<String, Session> sessionConcurrentHashMap = new ConcurrentHashMap();
+    ConcurrentHashMap<String, Session> sessionConcurrentHashMap = new ConcurrentHashMap<>();
 
     @OnOpen
     public void handleOpen(Session session) {

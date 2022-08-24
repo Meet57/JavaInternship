@@ -26,7 +26,6 @@ public class Server {
             System.err.println("Client connection closed!");
             in.close();
             clientOutput.close();
-
         }
     }
 }
