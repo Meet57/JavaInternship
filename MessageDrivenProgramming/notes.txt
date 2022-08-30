@@ -1,0 +1,70 @@
+For NSQ just check the testcases of the NSQ java client github repo
+
+STEPS:
+
+1. nsqlookupd
+2. nsqd --lookupd-tcp-address=127.0.0.1:4160
+3. nsqadmin --lookupd-http-address=127.0.0.1:4161
+
+#Creates a topic and send hello world to it
+4. curl -d 'hello world 1' 'http://127.0.0.1:4151/pub?topic=test'
+5. curl -d 'hello world 2' 'http://127.0.0.1:4151/pub?topic=test'
+6. curl -d 'hello world 3' 'http://127.0.0.1:4151/pub?topic=test'
+
+
+PROGRAM:
+
+in POSTMAN it will listen at 4151 port for Prodcuer 	[HTTP]
+in java it will listen at 4150 port for Prodcuer	[TCP]
+in java it will listen at 4161 port for Receiver	[TCP]
+
+
+ZMQ
+
+--ZMQ types--
+
+		--FIRST COME FIRST SERVE, BUT CAN RESPOSNE TO A MESSAGE ALSO
+
+	REQ
+		Send, Receive, Send, Receive, …
+	REP
+		Receive, Send, Receive, Send …
+		
+		
+		--FIRST COME FIRST SERVE
+	
+	PUSH
+		Send only
+	PULL
+		Receive only
+		
+		--SENDS THE MESSAGE TO ALL THE SUBCRIBERS
+	
+	PUB
+		Send only
+	SUB		//socket.subscribe(ZMQ.SUBSCRIPTION_ALL);
+		Receive only
+
+
+REQ
+	If no services are available, then any send operation on the socket will block until at least one service becomes available. The REQ socket will not discard any messages.
+	
+PUB
+	The send function does never block for this socket type.
+	
+PUSH
+	any send operations on the socket will block until the mute state ends or at least one downstream node becomes available for sending; messages are not discarded.
+
+
+BLOCKING
+	When a socket type, provides a service of blocking on HWM condition
+		That means that, if the user is connected and sender reaches HWM it will wait will the queues get empty as user is already collecting messages on his own speed
+
+		If the user is not connected it will wait for the connector
+
+	When you apply ZMQ.NOBLOCK
+		here it is a state where it drops the messages if HWM has reached
+
+DROPPING
+	PUBSUB
+	Condition where sender is irrespective of the recevier and still sends the data

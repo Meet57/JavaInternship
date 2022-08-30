@@ -5,51 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24be9552-35ea-4248-9d33-58877d366b99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../NSQ/nsq/bin/nsqd.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ/src/main/java/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ/src/main/java/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ02/src/main/java/Consumer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ02/src/main/java/Consumer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ02/src/main/java/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ03/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ03/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ03/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ03/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ03/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ03/.idea/libraries/github_brainlag_nsq_client.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ03/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ03/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ03/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ03/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ03/src/main/java/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ03/src/main/java/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/github_brainlag_nsq_client.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/.idea/libraries/jcraft_jsch.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/src/main/java/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practice/src/MultiThreading/Project3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice/src/MultiThreading/Project3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practice/src/Socket/HTTPSocket/Project1/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice/src/Socket/HTTPSocket/Project1/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Websocket/src/main/java/WebSocketServerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Websocket/src/main/java/WebSocketServerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +82,7 @@
       <updated>1661344947120</updated>
       <workItem from="1661344948665" duration="936000" />
       <workItem from="1661345918124" duration="347000" />
+      <workItem from="1661402470701" duration="910000" />
     </task>
     <servers />
   </component>
