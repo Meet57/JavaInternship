@@ -10,85 +10,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0583780-7893-4e1b-abf2-d54f30d24303" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../JDBC/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC/src/main/java/DAO/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC/src/main/java/DAO/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC/src/main/java/DAO/PracticeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC/src/main/java/Driver/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC/src/main/java/Driver/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC/src/main/java/Practice/CommitRollBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC/src/main/java/Practice/Example01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC/src/main/java/Practice/Example02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC/src/main/java/Practice/Example03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/todo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/usermanagment/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/usermanagment/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/usermanagment/web/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/user-form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/user-list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/WorkQueueExample/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/WorkQueueExample/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/WorkQueueExample/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/WorkQueueExample/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/WorkQueueExample/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/WorkQueueExample/.idea/libraries/reactive_streams_1_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/WorkQueueExample/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/WorkQueueExample/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/WorkQueueExample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/WorkQueueExample/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/WorkQueueExample/src/main/java/Example01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/ZMQ/ZMQ.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/ZMQ/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/ZMQ/src/main/java/HIghWaterMark/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/ZMQ/src/main/java/HIghWaterMark/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/ZMQ/src/main/java/HIghWaterMark/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/ZMQ/src/main/java/Languages/Client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/ZMQ/src/main/java/Languages/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/ZMQ/src/main/java/PubSub/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/ZMQ/src/main/java/PubSub/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/ZMQ/src/main/java/PubSub/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/ZMQ/src/main/java/PushPull/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/ZMQ/src/main/java/PushPull/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/ZMQ/src/main/java/PushPull/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/ZMQ/src/main/java/Single/Client01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/ZMQ/src/main/java/Single/Client02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/ZMQ/src/main/java/Single/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/ZMQ/target/classes/Languages/Client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bootstrap/src/main/java/Server/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bootstrap/src/main/java/Server/ServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bootstrap/target/classes/Client/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bootstrap/target/classes/Client/Client$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bootstrap/target/classes/Client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bootstrap/target/classes/Client/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bootstrap/target/classes/Client/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bootstrap/target/classes/Client/ClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bootstrap/target/classes/Server/Server$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bootstrap/target/classes/Server/Server$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bootstrap/target/classes/Server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bootstrap/target/classes/Server/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bootstrap/target/classes/Server/ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bootstrap/target/classes/Server/ServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bootstrap2/target/classes/Client/ChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bootstrap2/target/classes/Client/ChatClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bootstrap2/target/classes/Client/ChatClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bootstrap2/target/classes/Client/ChatClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bootstrap2/target/classes/Client/ChatClientInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bootstrap2/target/classes/Client/ChatClientInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bootstrap2/target/classes/Server/ChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bootstrap2/target/classes/Server/ChatServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bootstrap2/target/classes/Server/ChatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bootstrap2/target/classes/Server/ChatServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bootstrap2/target/classes/Server/ChatServerInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bootstrap2/target/classes/Server/ChatServerInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MessageDrivenProgramming/NSQ/target/classes/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/NSQ/target/classes/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MessageDrivenProgramming/NSQ/target/classes/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/NSQ/target/classes/Producer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MessageDrivenProgramming/NSQ02/target/classes/Consumer1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/NSQ02/target/classes/Consumer1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MessageDrivenProgramming/NSQ02/target/classes/Consumer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/NSQ02/target/classes/Consumer2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MessageDrivenProgramming/NSQ02/target/classes/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/NSQ02/target/classes/Producer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MessageDrivenProgramming/NSQ03/target/classes/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/NSQ03/target/classes/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MessageDrivenProgramming/NSQ03/target/classes/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/NSQ03/target/classes/Producer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MessageDrivenProgramming/NSQ04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MessageDrivenProgramming/NSQ04/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MessageDrivenProgramming/notes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practice/src/MultiThreading/Project3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice/src/MultiThreading/Project3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WebSocket02/target/classes/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../WebSocket02/target/classes/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Websocket/target/classes/WebSocketServerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Websocket/target/classes/WebSocketServerClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/java/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/java/TodoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/java/usermanagment/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/java/usermanagment/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/java/usermanagment/web/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/webapp/Error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/webapp/Meet.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/webapp/user-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/webapp/user-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +88,7 @@
       </deployment>
       <server-settings>
         <data>
-          <option name="baseDirectoryName" value="d4475136-ba63-4401-8184-ff6249970f45" />
+          <option name="baseDirectoryName" value="386ba2da-704c-403a-94fd-f0daa283cf1a" />
           <option name="configFiles">
             <list>
               <JettyConfigFile>
@@ -512,7 +454,7 @@
               </JettyConfigFile>
             </list>
           </option>
-          <base-directory-name>d4475136-ba63-4401-8184-ff6249970f45</base-directory-name>
+          <base-directory-name>386ba2da-704c-403a-94fd-f0daa283cf1a</base-directory-name>
           <option name="myConfigFiles">
             <list>
               <JettyConfigFile>
@@ -881,21 +823,6 @@
         </data>
       </server-settings>
       <predefined_log_file enabled="true" id="Jetty" />
-      <ConfigurationWrapper VM_VAR="" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -929,6 +856,7 @@
       <updated>1661834587675</updated>
       <workItem from="1661834589351" duration="7325000" />
       <workItem from="1661842629934" duration="1086000" />
+      <workItem from="1661848009298" duration="233000" />
     </task>
     <servers />
   </component>

@@ -23,7 +23,7 @@ public class Server implements Runnable {
             String reply = String.valueOf(i);
             if (socket.send(reply.getBytes(),ZMQ.NOBLOCK))
             {
-//                System.out.println(i);
+                System.out.println(i);
             }
             else
             {
@@ -35,21 +35,21 @@ public class Server implements Runnable {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        System.out.println("Default Block condition");
-        for (int i = 1; i <= 10; i++) {
-            String reply = String.valueOf(i);
-            if (socket.send(reply.getBytes()))
-            {
+//        System.out.println("Default Block condition");
+//        for (int i = 1; i <= 10; i++) {
+//            String reply = String.valueOf(i);
+//            if (socket.send(reply.getBytes()))
+//            {
 //                System.out.println(i);
-            }
-            else
-            {
-                System.err.println(i);
-            }
-        }
-        System.out.println("EXIT");
-        socket.send("exit".getBytes());
-
-        socket.close();
+//            }
+//            else
+//            {
+//                System.err.println(i);
+//            }
+//        }
+//        System.out.println("EXIT");
+//        socket.send("exit".getBytes());
+//
+//        socket.close();
     }
 }

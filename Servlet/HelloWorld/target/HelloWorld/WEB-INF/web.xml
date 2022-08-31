@@ -1,0 +1,68 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>HelloWorld</servlet-name>
+    <servlet-class>HelloWorld</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>HelloWorld</servlet-name>
+    <url-pattern>/meet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewServlet</servlet-name>
+    <servlet-class>Application.ViewServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ViewServlet</servlet-name>
+    <url-pattern>/ViewServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>Application.DeleteServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EditServlet</servlet-name>
+    <servlet-class>Application.EditServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>EditServlet</servlet-name>
+    <url-pattern>/EditServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EditServlet2</servlet-name>
+    <servlet-class>Application.EditServlet2</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>EditServlet2</servlet-name>
+    <url-pattern>/EditServlet2</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SaveServlet</servlet-name>
+    <servlet-class>Application.SaveServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>SaveServlet</servlet-name>
+    <url-pattern>/SaveServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

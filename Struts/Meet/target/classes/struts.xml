@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <constant name="struts.devMode" value="true" />
+
+    <package name="Meet" extends="json-default" namespace="/">
+        <action name="">
+            <result>/index.jsp</result>
+        </action>
+
+        <action name="hello" class="Meet.action.HelloWorldAction" method="execute">
+            <result name="success">/helloworld.jsp</result>
+        </action>
+
+        <action name="meet" class="Meet.action.MeetAction" method="execute">
+            <result name="success" type="json" />
+        </action>
+    </package>
+</struts>

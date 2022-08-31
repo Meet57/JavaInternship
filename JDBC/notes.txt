@@ -16,6 +16,8 @@ TYPES OF QUERY
 	4. DCL – Data Control Language
 
 EXAMPLES:
+	2nd highest salary
+		select * from emp order by salary desc limit 1,1;
 	
 	First three characters
 		Select substring(FIRST_NAME,1,3) from Worker;
@@ -25,7 +27,7 @@ EXAMPLES:
 
 	TRIM
 		Select RTRIM(FIRST_NAME) from Worker;
-		Select LTRIM(FIRST_NAME) from Worker;
+		Select (FIRST_NAME) from Worker;
 
 	TOTAL DEPARTMENTS
 		Select distinct length(DEPARTMENT) from Worker;

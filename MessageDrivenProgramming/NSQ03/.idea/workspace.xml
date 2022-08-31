@@ -5,51 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ee0740b-60b7-4d4e-a625-59548a718f4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../NSQ/nsq/bin/nsqd.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ/src/main/java/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ/src/main/java/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ02/src/main/java/Consumer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ02/src/main/java/Consumer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ02/src/main/java/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/github_brainlag_nsq_client.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ04/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ04/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ04/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ04/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ04/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ04/.idea/libraries/github_brainlag_nsq_client.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ04/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ04/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ04/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ04/src/main/java/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NSQ04/src/main/java/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/.idea/libraries/jcraft_jsch.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/src/main/java/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../WebSocket02/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practice/src/MultiThreading/Project3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice/src/MultiThreading/Project3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practice/src/Socket/HTTPSocket/Project1/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice/src/Socket/HTTPSocket/Project1/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Websocket/src/main/java/WebSocketServerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Websocket/src/main/java/WebSocketServerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/java/Application/DeleteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/java/Application/EditServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/java/Application/EditServlet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/java/Application/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/java/Application/EmpDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/java/Application/SaveServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/java/Application/ViewServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/java/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/webapp/Meet.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/HelloWorld/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/TodoApplication/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/TodoApplication/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/TodoApplication/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/TodoApplication/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/TodoApplication/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/TodoApplication/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/TodoApplication/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/TodoApplication/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/TodoApplication/src/main/java/Todo/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/TodoApplication/src/main/java/Todo/Todo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/TodoApplication/src/main/java/Todo/TodoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/TodoApplication/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/TodoApplication/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servlet/TodoApplication/src/main/webapp/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bootstrap/target/classes/Server/ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bootstrap/target/classes/Server/ServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JDBC/JDBC/target/classes/DAO/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JDBC/JDBC/target/classes/DAO/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JDBC/JDBC/target/classes/DAO/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JDBC/JDBC/target/classes/DAO/Practice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JDBC/JDBC/target/classes/DAO/PracticeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JDBC/JDBC/target/classes/DAO/PracticeDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JDBC/JDBC/target/classes/Driver/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JDBC/JDBC/target/classes/Driver/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JDBC/JDBC/target/classes/Driver/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JDBC/JDBC/target/classes/Driver/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JDBC/JDBC/target/classes/Practice/CommitRollBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JDBC/JDBC/target/classes/Practice/CommitRollBack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JDBC/JDBC/target/classes/Practice/Example01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JDBC/JDBC/target/classes/Practice/Example01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JDBC/JDBC/target/classes/Practice/Example02.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JDBC/JDBC/target/classes/Practice/Example02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JDBC/JDBC/target/classes/Practice/Example03.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JDBC/JDBC/target/classes/Practice/Example03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JDBC/Practice/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JDBC/TodoServletApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JDBC/TodoServletApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JDBC/TodoServletApplication/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JDBC/TodoServletApplication/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JDBC/TodoServletApplication/target/classes/usermanagment/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JDBC/TodoServletApplication/target/classes/usermanagment/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JDBC/TodoServletApplication/target/classes/usermanagment/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JDBC/TodoServletApplication/target/classes/usermanagment/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JDBC/TodoServletApplication/target/classes/usermanagment/web/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JDBC/TodoServletApplication/target/classes/usermanagment/web/UserServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +133,7 @@
       <workItem from="1661334754214" duration="6196000" />
       <workItem from="1661342921019" duration="2087000" />
       <workItem from="1661345906500" duration="10000" />
+      <workItem from="1661863172262" duration="329000" />
     </task>
     <servers />
   </component>
