@@ -2,6 +2,7 @@ package DAO;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class PracticeDAO {
     private Connection con;
@@ -16,6 +17,18 @@ public class PracticeDAO {
             throw new RuntimeException(e);
         }
 
+    }
+
+    public int updatedeleteinsert(string query){
+        query.fire
+        get int value
+        return int
+    }
+
+    public list(hashmap) select(string query){
+        query.fire
+        list(each row as hashmap)
+        return list
     }
 
     public void addStudent(Practice p){
@@ -56,7 +69,7 @@ public class PracticeDAO {
             query = "select * from practice where id =" + id + ";";
 
             Statement stmt = con.createStatement();
-            ResultSet rs = stmt.executeQuery(query);
+            ResultSet rs = stmt.executeQuery(quer   y);
 
             rs.next();
 

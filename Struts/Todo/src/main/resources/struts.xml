@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <constant name="struts.devMode" value="true" />
+
+    <package name="todo" extends="json-default" namespace="/">
+
+        <action name="">
+            <result>/index.html</result>
+        </action>
+
+        <action name="get" class="todo.action.TodoAction" method="get">
+            <result name="success" type="json" />
+        </action>
+
+        <action name="delete" class="todo.action.TodoAction" method="delete">
+            <result name="success" type="json" />
+        </action>
+
+        <action name="update" class="todo.action.TodoAction" method="update">
+            <result name="success" type="json" />
+        </action>
+
+        <action name="create" class="todo.action.TodoAction" method="create">
+            <result name="success" type="json" />
+        </action>
+
+    </package>
+</struts>

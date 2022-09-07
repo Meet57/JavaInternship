@@ -13,7 +13,7 @@
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script>
     $('#button').click(function () {
-        $.post("meet", {name: $('#name').val(), time: "2pm"}
+        $.post("meet", {name: $('#name').val()}
             ,function (data) {
                 console.log(data)
                 $("#result").empty();
